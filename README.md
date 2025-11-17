@@ -8,6 +8,8 @@ A EverPia, ningú entra sabent què s’hi trobarà. Però tothom en surt transf
 Aquest projecte representa exactament aquest punt: quan ja no ets el júnior espantat del primer dia. Ara tens eines, criteri i una mirada tècnica madura.  
 I vols sortir per la porta gran. 🚀
 
+<img src=https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGVzNW40dHViMGZraHRjcjJ2dTVjYW0xZHFwcDlkdHg0bGFxdm50MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6Zt2MpWzJxRMInbW/giphy.gif>
+
 Aquest projecte és la teva carta de presentació professional.
 
 > No és un conjunt de tasques.  
@@ -42,29 +44,19 @@ Demostrar que l’alumne és capaç de:
 - Treure **≥ 4** al Treball individual per poder fer mitjana.
 
 ## Tasques a desenvolupar
-
-#### Bloc Backup i Recuperació (DRP)
 - T01 – DRP: cas client  
 - T02 – DRP: cas pràctic  
 - T03 – Imatges del sistema (Rescuezilla)
-
-#### Bloc Accés remot
 - T04 – Introducció a l’accés remot  
 - T05 – SSH  
 - T06 – RDP  
 - T07 – Assistència remota  
-
-#### Bloc Servidors
 - T08 – Auditoria i estàndards de servidors  
 - T09 – NFS  
 - T10 – CUPS  
-
-#### Bloc UX / Web
 - T11 – Figma bàsic  
 - T12 – Fonaments landing + checkout  
 - T13 – Ecommerce en Figma  
-
-#### Bloc Sostenibilitat
 - T14 – Prova escrita  
 - T15 – Circularitat família professional  
 
