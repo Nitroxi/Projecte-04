@@ -73,4 +73,6 @@ Recorda que la qualitat de la teva documentació determinarà la qualitat de la 
 
 ---
 
-[Solució](Solucio.md)
+- [**Solució**](Solucio.md)
+- [**Tornar el projecte**](../README.md)
+
