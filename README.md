@@ -44,21 +44,21 @@ Demostrar que l’alumne és capaç de:
 - Treure **≥ 4** al Treball individual per poder fer mitjana.
 
 ## Tasques a desenvolupar
-- T01 – DRP: cas client  
-- T02 – DRP: cas pràctic  
-- T03 – Imatges del sistema (Rescuezilla)
-- T04 – Introducció a l’accés remot  
-- T05 – SSH  
-- T06 – RDP  
-- T07 – Assistència remota  
-- T08 – Auditoria i estàndards de servidors  
-- T09 – NFS  
-- T10 – CUPS  
-- T11 – Figma bàsic  
-- T12 – Fonaments landing + checkout  
-- T13 – Ecommerce en Figma  
-- T14 – Prova escrita  
-- T15 – Circularitat família professional  
+- [T01 – DRP: cas client](Tasca%2001/README.md) 
+- [T02 – DRP: cas pràctic](Tasca%2002/README.md) 
+- [T03 – Imatges del sistema (Rescuezilla)](Tasca%2003/README.md) 
+- [T04 – Introducció a l’accés remot](Tasca%2004/README.md)   
+- [T05 – SSH](Tasca%2005/README.md)   
+- [T06 – RDP](Tasca%2006/README.md)   
+- [T07 – Assistència remota](Tasca%2007/README.md)   
+- [T08 – Auditoria i estàndards de servidors](Tasca%2008/README.md)   
+- [T09 – NFS](Tasca%2009/README.md)   
+- [T10 – CUPS](Tasca%2010/README.md)   
+- [T11 – Figma bàsic](Tasca%2011/README.md)   
+- [T12 – Fonaments landing + checkout](Tasca%2012/README.md)   
+- [T13 – Ecommerce en Figma](Tasca%2013/README.md)   
+- [T14 – Prova escrita](Tasca%2014/README.md)   
+- [T15 – Circularitat família professional](Tasca%2015/README.md)   
 
 ## Productes finals a lliurar
 - P01: Kanban del projecte  
