@@ -61,14 +61,10 @@ Demostrar que l’alumne és capaç de:
 - [T15 – Circularitat família professional](Tasca%2015/README.md)   
 
 ## Productes finals a lliurar
-- P01: Kanban del projecte  
-- P02: Repositori Git amb tota la documentació  
-- P03: Imatge de restauració funcional + proves  
-- P04: Servidor NFS operatiu i documentat  
-- P05: Servidor CUPS amb validació  
-- P06: Informe complet d’accés remot  
-- P07: Prototip corporatiu + ecommerce (Figma)  
-- P08: Reflexió de sostenibilitat i economia circular  
+- [P01: Kanban del projecte](Producte%2001/README.md) 
+- [P02: Repositori Git amb tota la documentació](Producte%2002/README.md) 
+- [P03: Imatge de restauració funcional + proves](Producte%2003/README.md)   
+- [P04: Servidor NFS operatiu i documentat](Producte%2004/README.md)     
 
 ## Competències desenvolupades
 - **Tècniques:** seguretat, sistemes Linux, serveis de xarxa, control de versions.
