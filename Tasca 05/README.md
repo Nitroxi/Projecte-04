@@ -71,4 +71,4 @@ Un document complet en Markdown explicant:
 Aquesta tasca forma part del bloc **Accés Remot** del projecte *EverPia 3*.  
 Recorda que la qualitat de la teva documentació determinarà la qualitat de la formació futura dels nous becaris.
 
-
+[Solució](Solucio.md)
