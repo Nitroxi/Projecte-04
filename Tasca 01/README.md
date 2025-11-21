@@ -171,4 +171,6 @@ Inclou:
 
 ---
 
-[Solució](Solucio.md)
+- [**Solució**](Solucio.md)
+- [**Tornar el projecte**](../README.md)
+
