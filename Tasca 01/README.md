@@ -171,6 +171,8 @@ Inclou:
 
 ---
 
-- [**Solució**](Solucio.md)
+- [**Fase 1**](Fase1.md)
+- [**Fase 2**](Fase2.md)
+- [**Fase 3**](Fase3.md)
 - [**Tornar el projecte**](../README.md)
 
