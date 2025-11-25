@@ -132,7 +132,7 @@ ssh-keygen
 
 ![img](img/img20.png)
 
-Copiar al servidor:
+Copiem la clau al servidor Ubuntu:
 
 ```powershell
 scp id_rsa.pub usuari@IP:/home/usuari/
@@ -140,7 +140,7 @@ scp id_rsa.pub usuari@IP:/home/usuari/
 
 ![img](img/img21.png)
 
-Instal·lar la clau:
+Posem la clau a la carpeta:
 
 ```bash
 mkdir -p ~/.ssh
@@ -150,7 +150,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 ![img](img/img22.png)
 
-Connectar sense contrasenya:
+Comprovem si es connecta sense contrasenya:
 
 ![img](img/img23.png)
 
@@ -165,7 +165,7 @@ Set-Service -Name sshd -StartupType Automatic
 
 ![img](img/img24.png)
 
-Connexió:
+Connectem:
 
 ```bash
 ssh usuari@IP-windows
