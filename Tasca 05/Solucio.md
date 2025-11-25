@@ -38,7 +38,7 @@ Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 
 ## 3. Connexió des de Windows a Ubuntu
 
-Ens connectem des de PowerShell:
+També podem connectem des de PowerShell:
 
 ```powershell
 ssh usuari@IP-del-servidor
