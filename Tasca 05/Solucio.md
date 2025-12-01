@@ -72,7 +72,7 @@ Panell de control → Xarxa i Internet → Opcions d’Internet → Connexions �
 Habilitem Servidor Proxy amb IP local i port 9876.
 
 ![img](img/img11.png)
-![img](img/img12.png)
+![img](img/img12e.png)
 
 ## 6. Validació del túnel amb Wireshark
 
