@@ -44,6 +44,7 @@ També podem connectarnos des de PowerShell:
 ```powershell
 ssh usuari@IP-del-servidor
 ```
+
 ![img](img/img7.png)
 
 Verifiquem amb hostname:
@@ -78,7 +79,7 @@ Habilitem Servidor Proxy amb IP local i port 9876.
 
 ## 6. Validació del túnel amb Wireshark
 
-![img](img/img13.png)
+![img](img/img13e.png)
 
 ## 7. Control d’usuaris amb SSH
 
@@ -102,6 +103,7 @@ Editar configuració:
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
+
 ![img](img/img16.png)
 
 Afegir:
@@ -118,10 +120,12 @@ sudo systemctl restart ssh
 ```
 
 I comprobem:
+
 ![img](img/img17.png)
 ![img](img/img18.png)
 
 En canvi amb el que hem permès:
+
 ![img](img/img19.png)
 
 ## 8. Autenticació amb claus SSH
