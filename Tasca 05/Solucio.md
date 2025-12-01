@@ -2,7 +2,9 @@
 
 ## 1. Instal·lació de SSH a Ubuntu
 
-Pots instal·lar SSH durant la instal·lació inicial d’Ubuntu o manualment amb:
+Quan configurem la màquina Ubuntu, podem instal·lar SSH durant la configuració inicial.
+
+Si no ho vam fer en aquell moment, també el podem instal·lar manualment:
 
 ```bash
 sudo apt update && sudo apt install openssh-server
@@ -10,7 +12,7 @@ sudo apt update && sudo apt install openssh-server
 ![img](img/img1.png)
 ![img](img/img2.png)
 
-Comprovem l’estat del servei:
+Un cop instal·lat, comprovem l’estat del servei:
 
 ```bash
 sudo systemctl status ssh
@@ -20,17 +22,16 @@ sudo systemctl status ssh
 
 ## 2. Instal·lació de SSH a Windows
 
-A Windows, podem instal·lar SSH des de:
-
-Configuració → Sistema → Característiques opcionals → Afegeix una característica
-
+### Opció 1: Des de configuració
+1. Configuració > Sistema > Característiques opcionals
+2. Clicar "Veure característiques"
+3. Buscar "Client OpenSSH" i instal·lar
+   
 ![img](img/img4.png)
 
-També amb PowerShell:
-
+### Opció 2: PowerShell
 ```powershell
 Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
-Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 ```
 
 ![img](img/img5.png)
@@ -38,14 +39,14 @@ Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 
 ## 3. Connexió des de Windows a Ubuntu
 
-També podem connectem des de PowerShell:
+També podem connectarnos des de PowerShell:
 
 ```powershell
 ssh usuari@IP-del-servidor
 ```
 ![img](img/img7.png)
 
-Verifiquem el hostname:
+Verifiquem amb hostname:
 
 ```bash
 hostname
@@ -55,8 +56,7 @@ hostname
 
 ## 4. Creació d’un túnel SSH (Proxy SOCKS)
 
-Creem un túnel amb:
-
+Creem un túnel (pots utilitzar qualsevol port que no utilitzi el sistema):
 ```bash
 ssh -D 9876 usuari@IP-del-servidor
 ```
@@ -64,6 +64,8 @@ ssh -D 9876 usuari@IP-del-servidor
 ![img](img/img9.png)
 
 ## 5. Configuració del Proxy a Windows
+
+Configurem el proxy anant a:
 
 Panell de control → Xarxa i Internet → Opcions d’Internet → Connexions → Configuració LAN
 
