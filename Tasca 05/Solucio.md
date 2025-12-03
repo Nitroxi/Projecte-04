@@ -182,3 +182,5 @@ ssh usuari@IP-windows
 
 ## I JA ESTARIA 👍
 
+- [**Tornar al readme**](README.md)
+- [**Tornar el projecte**](../README.md)
