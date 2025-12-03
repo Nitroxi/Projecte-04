@@ -166,3 +166,7 @@ La còpia externa es guarda al núvol, en un lloc fora de l’empresa, perquè a
 
 Per assegurar que no es perden més de 4 hores d’informació de comptabilitat i clients, es fan còpies de seguretat cada 4 hores. Així, si hi ha algun problema, la informació recuperada sempre serà recent. També per garantir que les dades es puguin recuperar en menys de 4 hores, la còpia més recent es guarda al NAS de l’empresa, que permet restaurar les dades ràpidament sense necessitat d’esperar descàrregues del núvol.
 
+---
+
+- [**Tornar al readme**](README.md)
+- [**Tornar el projecte**](../README.md)
