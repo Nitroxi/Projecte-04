@@ -84,7 +84,5 @@ Si Remmina no connecta o la pantalla es queda negra, normalment reiniciar el pro
 
 ---
 
-[Tornar al README](README.md)
-
-[Tornar al projecte](...\README.md)
-
+- [**Tornar al readme**](Solucio.md)
+- [**Tornar el projecte**](../README.md)
