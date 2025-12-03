@@ -29,5 +29,6 @@ Moodle 0227 Serveis de Xarxa. UD4.AA3 Escriptoris Remots
 
 ---
 
-
+- [**Solució**](Solucio.md)
+- [**Tornar el projecte**](../README.md)
 
