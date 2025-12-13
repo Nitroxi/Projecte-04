@@ -51,10 +51,12 @@ Ha d'explicar el procés des del punt de vista de l'usuari que rep ajuda. Ha d'i
 ---
 
 ## Materials i links de suport
-- [Link1](https://www.genbeta.com/a-fondo/que-software-instalar-a-tus-familiares-amigos-para-darles-soporte-ayuda-remoto)
-- [Link2](https://www.genbeta.com/herramientas/necesitas-escritorio-remoto-puedes-decirle-adios-a-teamviewer-rustdesk-gratis-e-ideal-para-usar-pc-movil)
-- [Link3](https://www.genbeta.com/herramientas/chrome-remote-desktop-que-como-funciona-como-puedes-usarlo-para-controlar-tu-pc-forma-remota)
+- [**Link1**](https://www.genbeta.com/a-fondo/que-software-instalar-a-tus-familiares-amigos-para-darles-soporte-ayuda-remoto)
+- [**Link2**](https://www.genbeta.com/herramientas/necesitas-escritorio-remoto-puedes-decirle-adios-a-teamviewer-rustdesk-gratis-e-ideal-para-usar-pc-movil)
+- [**Link3**](https://www.genbeta.com/herramientas/chrome-remote-desktop-que-como-funciona-como-puedes-usarlo-para-controlar-tu-pc-forma-remota)
 
 ---
 
-- [**Guia client](Guiaclient.md)
+- [**Tornar el projecte**](../README.md)
+- [**Guia Tecnic**](Guia%20tecnic.md)
+- [**Guia client**](Guia%20client.md)
