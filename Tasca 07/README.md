@@ -1,186 +1,56 @@
-# T07: Accés remot. Serveis d’assistència remota (tasca en parelles)
+# T07 — Accés remot  
+## Serveis d’assistència remota (tasca en parelles)
 
-## Fase 1: Anàlisi comparativa i selecció de la solució
+## Breu descripció
+Molt bé, equip. Fins ara hem vist eines per administrar servidors (SSH, RDP, VNC). Però la realitat de la nostra feina a EverPia és que una gran part de les nostres hores facturables provenen del suport directe a l'usuari final (Helpdesk).
 
-El primer pas és decidir quina eina utilitzarà EverPia. Pel que hem fet una anàlisi de mercat i un breu informe comparatiu entre les diferents eines d’assistència remota que hi ha al mercat. Un cop feta aquesta anàlisi, hem seleccionat l’eina que millor s’adapta a les necessitats de l’empresa i hem justificat la nostra elecció.
+Quan un client truca perquè "el PDF no s'obre", "li ha desaparegut una icona" o "la impressora no imprimeix", no li podem demanar que configuri una VPN o obri el port 3389 del seu router. Necessitem una eina d'assistència remota sota demanda: ràpida, fiable, segura i que funcioni en segons, fins i tot en xarxes restrictives.
 
-## Taula Comparativa d’Eines d’Assistència Remota
+![img](portada.png)
 
-| Criteri | TeamViewer | AnyDesk | Google (Chrome) Remote Desktop | LogMeIn |
-|-------|------------|---------|--------------------------------|---------|
-| Facilitat d’ús (client) | Requereix descarregar l’aplicació o mòdul QuickSupport. L’usuari ha de facilitar un ID i una contrasenya. | Instal·lació ràpida i lleugera. ID visible i fàcil de comunicar. | Molt senzill si l’usuari té compte Google. Connexió via navegador i PIN. | Accés mitjançant aplicació o enllaç. Pensat per a entorns empresarials. |
-| Instal·lació / Portable | Mòdul QuickSupport sense instal·lació completa | Instal·lació lleugera | No requereix instal·lació d’escriptori | Requereix instal·lació de l’agent |
-| Windows | ✅ | ✅ | ✅ | ✅ |
-| macOS | ✅ | ✅ | ✅ | ✅ |
-| Linux | ✅ | ✅ | ✅ | No |
-| Dispositius mòbils | ✅ | ✅ | ✅ | ✅ |
-| Ús comercial permès en versió gratuïta | No | No | ✅ | No |
-| Model de preu | Subscripció per tècnic | Subscripció (més econòmica) | Gratuït | Subscripció (cost elevat) |
-| Limitacions de la versió gratuïta | Tall de sessions i detecció d’ús comercial | Funcions avançades limitades | Funcionalitats bàsiques | No disposa de versió gratuïta |
-
-## Justificació de l’Eina Seleccionada
-
-Després d’analitzar les diferents opcions disponibles, es recomana `TeamViewer` com a eina oficial d’assistència remota per a EverPia. Aquesta solució destaca per la seva gran fiabilitat, estabilitat i reconeixement al mercat professional, sent àmpliament utilitzada en entorns empresarials.
-
+La direcció d'EverPia ha decidit estandarditzar l'eina oficial que farem servir per a aquestes tasques de suport immediat. La vostra missió en parelles és analitzar el mercat i proposar la millor solució, per després crear la documentació que faran servir tant els nostres tècnics com els nostres clients.
 
 ---
 
-## 1. Introducció
+## Fase 1 — Anàlisi comparativa i selecció de la solució
+El primer pas és decidir quina eina utilitzarà EverPia. Heu de fer una anàlisi de mercat i presentar un breu informe comparatiu.
 
-Els serveis d’assistència remota són fonamentals dins d’una empresa IT, ja que permeten als tècnics donar suport als usuaris sense necessitat de presència física.
-
-En aquesta tasca utilitzarem **TeamViewer**, una de les eines d’assistència remota més utilitzades en entorns professionals per la seva fiabilitat, facilitat d’ús i opcions de seguretat.
-
----
-
-## 2. Versions de TeamViewer
-
-TeamViewer disposa de diferents versions:
-
-- **Versió web**
-- **Versió d’escriptori**
-
-👉 En aquesta pràctica **utilitzarem la versió d’escriptori**, ja que és la més completa i habitual en entorns corporatius.
-
-![img](img/img01.png)
+### Tasques
+- Investigar **quatre alternatives** populars d'assistència remota.  
+  **Exemples obligatoris:** TeamViewer, AnyDesk, Google Remote Desktop.  
+  Heu d'afegir-ne **una quarta** de la vostra elecció.
+- Crear una **taula comparativa** que avaluï cada solució basant-se en aquests criteris clau:
+  - **Facilitat d'ús (per al client):** Requereix instal·lació? És portable? Com de senzill és per a un usuari no tècnic passar-nos l'ID?
+  - **Disponibilitat (Sistemes Operatius):** Funciona a Windows? macOS? Linux? (Vital per a EverPia, ja que donem suport a entorns mixtos).
+  - **Model de preu (Llicència):** És gratuït per a ús comercial? Quant costa una llicència per a tècnic? Quines limitacions té la versió gratuïta?
+- Presentar una **recomanació:** Basant-vos en la vostra taula, heu de recomanar oficialment una de les eines per a l'adopció a EverPia, justificant per què és la millor opció (equilibri entre facilitat, funcionalitat i cost).
 
 ---
 
-## 3. Descàrrega de TeamViewer
+## Fase 2 — Creació de les guies d’ús (Documentació)
+Un cop heu seleccionat l'eina a la Fase 1, heu de crear la documentació oficial per al seu ús. Aquesta documentació és crucial i ha de tenir dos enfocaments diferents:
 
-En accedir a la pàgina oficial de TeamViewer i fer clic a **Descarregar**, apareixen diverses opcions:
+### Guia 1 — Manual per al tècnic (Intern d’EverPia)
+Aquesta guia serà per als futurs becaris i tècnics que s'incorporin a l'empresa.
 
-- **TeamViewer**
-- **TeamViewer QuickSupport**
+Ha d'explicar el flux de treball des del punt de vista del consultor. Ha d'incloure (amb captures de pantalla):
+- Com instal·lar la versió completa/tècnica de l'eina.
+- Com iniciar una sessió de suport.
+- Com gestionar funcions clau (transferència d'arxius, canvi de pantalla, reinici remot).
+- Bones pràctiques de seguretat (p. ex., tancar sempre la sessió, no desar contrasenyes de clients).
 
-🔹 **Seleccionem TeamViewer QuickSupport**, ja que és la versió pensada per a l’usuari que rep assistència tècnica.
+### Guia 2 — Manual per al client (Usuari final)
+Aquesta guia és la que enviarem als nostres clients quan tinguin una incidència. Ha de ser extremadament simple, visual i no tècnica.
 
-![img](img/img02.png)
-
-
-
----
-
-## 4. Execució del QuickSupport
-
-La versió **QuickSupport és portable**, això vol dir que:
-
-- ❌ No requereix instal·lació
-- ✅ Només cal fer doble clic a l’arxiu descarregat
-
-En obrir-lo apareix una finestra amb:
-- **ID de l’equip**
-- **Contrasenya temporal**
-- Opcions de connexió segura
-  
-![img](img/img03.png)
+Ha d'explicar el procés des del punt de vista de l'usuari que rep ajuda. Ha d'incloure (amb captures de pantalla molt clares):
+- L'enllaç o la manera de descarregar el mòdul **"Quick Support"** (o equivalent) que no requereixi instal·lació.
+- On han de fer clic exactament.
+- Com identificar i comunicar al tècnic l'ID de sessió i la contrasenya (si n'hi ha).
+- Com acceptar la petició de connexió.
 
 ---
 
-## 5. Maneres de connectar-se amb TeamViewer
-
-Hi ha **dues maneres principals** perquè el tècnic accedeixi a l’equip de l’usuari:
-
----
-
-### 5.1 Connexió mitjançant ID i contrasenya
-
-1. L’usuari facilita el seu **ID** i la **contrasenya temporal** al tècnic.
-   
-![img](img/img08.png)
-
-2. El tècnic introdueix l’ID a TeamViewer.
-
-![img](img/10.png)   
-
-![img](img/11.png)
-   
-4. El tècnic accedeix a la sessió.
-
-![img](img/img09.png)
-
----
-
-### 5.2 Connexió mitjançant codi o enllaç
-
-1. El tècnic genera un **codi o enllaç de connexió**.
-   
-![img](img/img04.png)
-
-3. L’usuari introdueix el codi a TeamViewer.
-   
-![img](img/img05.png)
-
-5. L’usuari accepta la connexió.
-
-![img](img/img06.png)
-![img](img/img07.png)
-
-7. El tècnic accedeix a la sessió.
-   
-![img](img/img09.png)
-
-
----
-
-## 6. Funcionalitats durant la sessió remota
-
-Un cop establerta la connexió, el tècnic pot:
-
-### 6.1 Control remot
-- Controlar **ratolí i teclat**
-- Visualitzar la pantalla de l’usuari en temps real
-
-![img](img/img13.png)
-
-### 6.2 Transferència d’arxius
-- Enviar arxius a l’usuari
-- Rebre documents de l’usuari
-
-![img](img/img10.png)
-
-![img](img/img11.png)
-
-
----
-
-## 7. Configuració de permisos i seguretat
-
-TeamViewer permet configurar els permisos de la sessió per garantir la seguretat:
-
-### 7.1 Permisos configurables
-L’usuari pot:
-- Permetre o denegar el **control remot**
-- Permetre o bloquejar la **transferència d’arxius**
-- Permetre o denegar l’ús del **teclat i ratolí**
-- Finalitzar la sessió en qualsevol moment
-- Permetre configurar el **audio** i el **video** 
-- També pots habilitar els **registres** o configurar el **proxy**
-
-![img](img/img12.png)
-
-![img](img/img14.png)
-
-### 7.2 Seguretat
-- Contrasenyes temporals
-- Connexió xifrada
-- Accés sempre sota confirmació de l’usuari
-
-Això assegura la **privacitat i el control total** per part de l’usuari.
-
-
----
-
-## 8. Finalització de la sessió
-
-Quan el suport ha finalitzat:
-- L’usuari pot tancar TeamViewer
-- La connexió queda completament interrompuda
-- La contrasenya deixa de ser vàlida
-
-Per tornar a accedir, caldrà una nova autorització.
-
----
-
-
-
+## Materials i links de suport
+- https://www.genbeta.com/a-fondo/que-software-instalar-a-tus-familiares-amigos-para-darles-soporte-ayuda-remoto
+- https://www.genbeta.com/herramientas/necesitas-escritorio-remoto-puedes-decirle-adios-a-teamviewer-rustdesk-gratis-e-ideal-para-usar-pc-movil
+- https://www.genbeta.com/herramientas/chrome-remote-desktop-que-como-funciona-como-puedes-usarlo-para-controlar-tu-pc-forma-remota
