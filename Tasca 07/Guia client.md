@@ -181,3 +181,7 @@ Quan el suport ha finalitzat:
 Per tornar a accedir, caldrà una nova autorització.
 
 ---
+
+- [**Tornar al readme**](README.md)
+- [**Tornar el projecte**](../README.md)
+- [**Guia Tecnic**](Guia%tecnic.md)
