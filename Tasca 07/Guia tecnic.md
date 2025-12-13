@@ -167,4 +167,10 @@ Per garantir la seguretat durant les sessions d'assistència remota, és importa
 - Finalitzar la sessió remota immediatament després de completar l'assistència.
 - Mantenir el programari de TeamViewer actualitzat per beneficiar-se de les últimes mesures de seguretat.
 
-[Tornar a enunciat](README.md)
+---
+
+---
+
+- [**Tornar al readme**](README.md)
+- [**Tornar el projecte**](../README.md)
+- [**Guia Tecnic**](Guia%tecnic.md)
