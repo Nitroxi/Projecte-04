@@ -6,7 +6,7 @@ Molt bé, equip. Fins ara hem vist eines per administrar servidors (SSH, RDP, VN
 
 Quan un client truca perquè "el PDF no s'obre", "li ha desaparegut una icona" o "la impressora no imprimeix", no li podem demanar que configuri una VPN o obri el port 3389 del seu router. Necessitem una eina d'assistència remota sota demanda: ràpida, fiable, segura i que funcioni en segons, fins i tot en xarxes restrictives.
 
-![img](portada.png)
+![img](img/portada.png)
 
 La direcció d'EverPia ha decidit estandarditzar l'eina oficial que farem servir per a aquestes tasques de suport immediat. La vostra missió en parelles és analitzar el mercat i proposar la millor solució, per després crear la documentació que faran servir tant els nostres tècnics com els nostres clients.
 
@@ -51,6 +51,10 @@ Ha d'explicar el procés des del punt de vista de l'usuari que rep ajuda. Ha d'i
 ---
 
 ## Materials i links de suport
-- https://www.genbeta.com/a-fondo/que-software-instalar-a-tus-familiares-amigos-para-darles-soporte-ayuda-remoto
-- https://www.genbeta.com/herramientas/necesitas-escritorio-remoto-puedes-decirle-adios-a-teamviewer-rustdesk-gratis-e-ideal-para-usar-pc-movil
-- https://www.genbeta.com/herramientas/chrome-remote-desktop-que-como-funciona-como-puedes-usarlo-para-controlar-tu-pc-forma-remota
+- [Link1](https://www.genbeta.com/a-fondo/que-software-instalar-a-tus-familiares-amigos-para-darles-soporte-ayuda-remoto)
+- [Link2](https://www.genbeta.com/herramientas/necesitas-escritorio-remoto-puedes-decirle-adios-a-teamviewer-rustdesk-gratis-e-ideal-para-usar-pc-movil)
+- [Link3](https://www.genbeta.com/herramientas/chrome-remote-desktop-que-como-funciona-como-puedes-usarlo-para-controlar-tu-pc-forma-remota)
+
+---
+
+- [**Guia client](Guiaclient.md)
