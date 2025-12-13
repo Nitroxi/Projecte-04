@@ -58,5 +58,5 @@ Ha d'explicar el procés des del punt de vista de l'usuari que rep ajuda. Ha d'i
 ---
 
 - [**Tornar el projecte**](../README.md)
-- [**Guia Tecnic**](Guia%20tecnic.md)
+- [**Guia tecnic**](Guia%20tecnic.md)
 - [**Guia client**](Guia%20client.md)
