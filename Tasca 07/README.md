@@ -90,8 +90,12 @@ Hi ha **dues maneres principals** perquè el tècnic accedeixi a l’equip de l�
 ![img](img/img08.png)
 
 2. El tècnic introdueix l’ID a TeamViewer.
+
+![img](img/10.png)   
+
+![img](img/11.png)
    
-3. El tècnic accedeix a la sessió.
+4. El tècnic accedeix a la sessió.
 
 ![img](img/img09.png)
 
