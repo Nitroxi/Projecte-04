@@ -173,4 +173,4 @@ Per garantir la seguretat durant les sessions d'assistència remota, és importa
 
 - [**Tornar al readme**](README.md)
 - [**Tornar el projecte**](../README.md)
-- [**Guia Tecnic**](Guia%tecnic.md)
+- [**Guia client**](Guia%20client.md)
