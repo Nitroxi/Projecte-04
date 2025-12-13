@@ -30,9 +30,8 @@ TeamViewer disposa de diferents versions:
 
 En accedir a la pàgina oficial de TeamViewer i fer clic a **Descarregar**, apareixen diverses opcions:
 
-- **TeamViewer Full Client**
+- **TeamViewer**
 - **TeamViewer QuickSupport**
-- **TeamViewer Host**
 
 🔹 **Seleccionem TeamViewer QuickSupport**, ja que és la versió pensada per a l’usuari que rep assistència tècnica.
 
