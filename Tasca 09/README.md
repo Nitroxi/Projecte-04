@@ -41,3 +41,5 @@ Implementar un **servidor NFS** que centralitzi:
 
 ---
 
+- [**Anar a la solució**](Solucio.md)
+- [**Tornar el projecte**](../README.md)
