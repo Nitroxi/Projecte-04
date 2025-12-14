@@ -1,5 +1,9 @@
-# Fase 1: Preparació de l'entorn (Infraestructura i Xarxa)
 
+# T09: Servidor fitxers Linux. NFS (tasca individual)
+
+
+ 
+## Fase 1: Preparació de l'entorn 
 Primer crear dues màquines virtuals: **servidor (Ubuntu)** i **client (Zorin)**, amb les mateixes interfícies:
 - **NAT** per tenir accés a Internet  
 - **Host Only** per a la comunicació entre les dues màquines
@@ -16,7 +20,7 @@ sudo apt update && sudo apt upgrade -y
 
 ---
 
-# Fase 2: Preparació del servidor
+## Fase 2: Preparació del servidor
 
 Per començar l'activitat, crearem dos grups: `devs` i `admins`, i dos usuaris:
 - `dev01` (pertanyent al grup `devs`)
@@ -110,7 +114,7 @@ mount ip-servidor:/ruta/carpeta/servidor /ruta/recipient
 
 ---
 
-# Fase 3: L'Exportació d'Administració (El dilema del root_squash)
+## Fase 3: L'Exportació d'Administració (El dilema del root_squash)
 
 Per defecte, NFS activa `root_squash`, que fa que l'usuari `root` es transformi en `nobody`, impedint l'accés.
 
@@ -153,7 +157,7 @@ Ara ja podem accedir amb normalitat.
 
 ---
 
-# Fase 4: L'Exportació de Desenvolupament (Permisos rw vs ro)
+## Fase 4: L'Exportació de Desenvolupament (Permisos rw vs ro)
 
 Editem `/etc/exports` i afegim dues exportacions:
 
@@ -212,7 +216,7 @@ i comprovem que:
 
 ---
 
-# Fase 5: Muntatge automàtic amb /etc/fstab
+## Fase 5: Muntatge automàtic amb /etc/fstab
 
 N’hi ha una opció per facilitar-nos la vida i muntar automàticament les carpetes que vols compartir.
 
