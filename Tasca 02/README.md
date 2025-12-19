@@ -1,5 +1,4 @@
 # T02: DPR – Còpies de seguretat  
-## Cas pràctic
 
 ## Breu descripció
 
