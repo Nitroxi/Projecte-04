@@ -270,3 +270,8 @@ Al mateix fitxer `crontab` afegim la línia següent:
 ```
 
 Aquesta entrada executa l’script de dilluns a dissabte a les **23:00**, assegurant que cada dia es desin només els canvis des de l’última còpia. D’aquesta manera complim la política: còpia completa un cop per setmana i còpies incrementals els altres dies.
+
+---
+
+- [**Tornar al README**](README.md)
+- [**Tornar el projecte**](../README.md)
