@@ -103,3 +103,6 @@ El procés ha de:
 - [**Programant tasques amb cron**](https://geekytheory.com/programar-tareas-en-linux-usando-crontab)
 
 ---
+
+- [**Solucio**](Solucio.md)
+- [**Tornar el projecte**](../README.md)
