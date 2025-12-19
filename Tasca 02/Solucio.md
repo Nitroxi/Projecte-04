@@ -72,8 +72,6 @@ Com a prova de restauració, creem alguns arxius (p. ex. `prova.txt`) a Documen
 
 ### 1.5 Crear una còpia de seguretat a Google Drive
 
-Seguint l’esquema 3‑2‑1, convé tenir una còpia externa al núbol. Duplicati facilita la connexió amb Google Drive mitjançant OAuth.
-
 1. **Nou backup al núbol:** creem un altre backup i, al pas *Destination*, seleccionem **Google Drive** com a proveïdor. Es defineix una ruta dins de Drive (p. ex. carpeta `Documents`) i es prem sobre **AuthID** per generar el codi d’autorització
 
 ![Configurar destinació al núbol](img/Captura%20de%20pantalla%202025-12-16%20172423.png)
